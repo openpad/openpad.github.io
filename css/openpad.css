@@ -263,9 +263,9 @@ section.section-red {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #8e8e8e;
     font-size: 20px;
-    color: #fff;
+    color: #8e8e8e;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -275,7 +275,7 @@ section.section-red {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #8e8e8e;
     background: #fff;
 }
 
