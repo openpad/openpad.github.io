@@ -99,11 +99,11 @@
             </div>
             <br/>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6">
                     <p>Openpad is a c++ library that allows you to make your game playable using a smartphone as a controller.  Users can download the openpad client iOS and Android apps, automatically connect to a game on the local network, and play.  No network code or socket programming required, openpad handles all that for you.  </p>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/logo.png" class="img-responsive" />
+                <div class="col-sm-6 text-center">
+                    <img src="img/screenshot-1.jpg" class="img-responsive screenshot-portrait" />
                 </div>
             </div>
             <div class="row">
@@ -112,7 +112,18 @@
             <br/>
             <div class="row">
                 <div class="col-sm-6">
-                    <img src="img/screenshot1.png" class="img-responsive code-snippet" />
+                    <!-- <img src="img/screenshot1.png" class="img-responsive code-snippet" /> -->
+                    <div class="code-snippet">
+                        <span class="keyword">void</span> runServer(){<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//Create delegate class</span><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;DebugGame <span class="namespace">game</span>;<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//Instantiate openpad server</span><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="namespace">openpad</span>::Server <span class="namespace">server</span>(<span class="namespace">game</span>);<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//Start accepting players</span><br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="namespace">server</span>.start();<br/>
+                            &nbsp;&nbsp;&nbsp;&nbsp;<span class="comment">//Profit!!</span><br/>
+                        }
+                    </div>
                 </div>
                 <div class="col-sm-6">
                     <br />
@@ -128,8 +139,8 @@
                     <br>
                     <p>Openpad gives you complete control over the controller layout.  Player controls are completely customizable, and you can even change the controls during the game.  Using a smartphone as a controller means anyone can play.  </p>
                 </div>
-                <div class="col-md-6">
-                    <img src="img/logo.png" class="img-responsive" />
+                <div class="col-sm-6">
+                    <img src="img/screenshot-3.jpg" class="img img-responsive" />
                 </div>
             </div>
         </div>
@@ -149,12 +160,15 @@
                 </div>
                 <div class="col-sm-4 text-center">
                     <h3 class="text-center">Server API</h3>
-                    <a href="/openpad-lib.zip" class="btn btn-lg btn-outline">
+                    <a href="downloads/openpad-lib.zip" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Library
                     </a>
                 </div>
                 <div class="col-sm-4 text-center">
                     <h3 class="text-center">Examples</h3>
+                    <a href="downloads/Ultimate Pong.zip" class="btn btn-lg btn-outline">
+                        <img src="img/pong-icon.png" class="example-icon" /> Ultimate Pong
+                    </a>
                 </div>
             </div>
         </div>
@@ -189,7 +203,7 @@
             <div class="row">
                 <div class="col-md-4">
                   <div class="profile">
-                    <img src="/img/james.png" class="img img-responsive img-circle" />
+                    <img src="img/james.png" class="img img-responsive img-circle" />
                     <h3>James Lennon</h3>
                     <h5><i class="fa fa-minus"></i> Server Framework <i class="fa fa-minus"></i></h5>
                     <br /><br />
@@ -198,7 +212,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="profile">
-                    <img src="/img/ethan.jpeg" class="img img-responsive img-circle" />
+                    <img src="img/ethan.jpeg" class="img img-responsive img-circle" />
                     <h3>Ethan Madison</h3>
                     <h5><i class="fa fa-minus"></i> Android Controller <i class="fa fa-minus"></i></h5>
                     <br /><br />
@@ -207,7 +221,7 @@
                 </div>
                 <div class="col-md-4">
                 <div class="profile">
-                  <img src="/img/jake.jpg" class="img img-responsive img-circle" />
+                  <img src="img/jake.jpg" class="img img-responsive img-circle" />
                   <h3>Jake Saferstein</h3>
                     <h5><i class="fa fa-minus"></i> iOS Controller <i class="fa fa-minus"></i></h5>
                     <br /><br />
@@ -223,20 +237,16 @@
         <div class="footer-above">
            <div class="container">
                 <div class="row">
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>Location</h3>
                         <p>Built in Los Angeles, USA</p>
                     </div>
-                    <div class="footer-col col-md-4">
+                    <div class="footer-col col-md-6">
                         <h3>Source Code</h3>
                         <a href="https://github.com/openpad"><i class="fa fa-github fa-2x"></i></a> 
                         <a href="https://github.com/openpad/openpad-android"><i class="fa fa-android fa-2x"></i></a> 
                         <a href="https://github.com/openpad/openpad-iOS"><i class="fa fa-apple fa-2x"></i></a> 
                         <a href="https://github.com/openpad/openpad-server"><i class="fa fa-desktop fa-2x"></i></a> 
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Footer Column3</h3>
-                        <p>lorem ipsum posem dimsum</p>
                     </div>
                 </div>
             </div>

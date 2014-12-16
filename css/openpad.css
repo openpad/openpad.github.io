@@ -65,6 +65,12 @@ hr.star-primary:after {
     margin: 0 auto;
 }
 
+.screenshot-portrait{
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header {
     text-align: center;
     color: #8e8e8e;
@@ -196,6 +202,22 @@ nav a:focus {
 section .code-snippet{
     width: 100%;
     border-radius: 10px;
+    background-color: #282828;
+    font-family: courier;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.code-snippet .keyword{
+    color: purple;
+}
+
+.code-snippet .namespace{
+    color: orange;
+}
+
+.code-snippet .comment{
+    color: #294f6d;
 }
 
 section {
@@ -372,6 +394,12 @@ footer .footer-below {
 .btn:active,
 .btn.active {
     outline: 0;
+}
+
+.example-icon{
+    width: 2em;
+    height: 2em;
+    margin-right: .5em;
 }
 
 .scroll-top {
